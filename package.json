@@ -1,0 +1,12 @@
+{
+  "name": "acme-weather",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Small client and CLI for the Acme Weather API",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "mock-api": "node mock-api/server.js",
+    "forecast": "node src/cli.js",
+    "test": "node --test"
+  }
+}
